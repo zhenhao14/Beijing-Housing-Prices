@@ -1,7 +1,7 @@
 """Feature engineering for the Beijing housing prices dataset (BT2102 Assignment 3).
 
-Reads  : data/raw/BeijingHousingPrices.xlsx
-Writes : data/raw/processed/BeijingHousingPrices_featured.csv
+Reads  : data/processed/BeijingHousingPrices_cleaned.csv
+Writes : data/processed/BeijingHousingPrices_featured.csv
 
 Run from anywhere:  python src/data/featureengineering.py
 Requires: pandas, numpy, openpyxl
@@ -13,12 +13,11 @@ import numpy as np
 import pandas as pd
 
 # --------------------------------------------------------------------------- #
-# Paths (this file lives in src/data/, so the project root is two levels up)
+# Paths (this file lives in src/, so the project root is one level up)
 # --------------------------------------------------------------------------- #
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-RAW_PATH = PROJECT_ROOT / "data" / "raw" / "BeijingHousingPrices.xlsx"
-OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
-OUTPUT_PATH = OUTPUT_DIR / "BeijingHousingPrices_featured.csv"
+INPUT_PATH = PROJECT_ROOT / "data" / "processed" / "BeijingHousingPrices_cleaned.csv"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "BeijingHousingPrices_featured.csv"
 
 # --------------------------------------------------------------------------- #
 # Constants
@@ -70,16 +69,9 @@ NUMERIC_COLS = [
 # --------------------------------------------------------------------------- #
 # Loading
 # --------------------------------------------------------------------------- #
-def load_data(path: Path = RAW_PATH) -> pd.DataFrame:
-    """Load the raw Excel file and coerce numeric columns."""
-    df = pd.read_excel(path)
-
-    for col in NUMERIC_COLS:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors="coerce")
-
-    df["tradeTime"] = pd.to_datetime(df["tradeTime"], errors="coerce")
-    return df
+def load_data(path: Path = INPUT_PATH) -> pd.DataFrame:
+    """Load the cleaned CSV (types were already fixed by cleaning.py)."""
+    return pd.read_csv(path, parse_dates=["tradeTime"], dtype={"id": "string"})
 
 
 # --------------------------------------------------------------------------- #
@@ -159,16 +151,6 @@ def add_price_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def add_liquidity_features(df: pd.DataFrame) -> pd.DataFrame:
-    """Interest per day on market and a fast-sale flag."""
-    df["followers_per_day"] = df["followers"] / df["DOM"].replace(0, np.nan)
-
-    median_dom = df["DOM"].median()
-    df["is_fast_sale"] = (df["DOM"] <= median_dom).astype("Int8")
-    df.loc[df["DOM"].isna(), "is_fast_sale"] = pd.NA
-    return df
-
-
 def add_amenity_features(df: pd.DataFrame) -> pd.DataFrame:
     """Simple count of premium features and a high-floor-with-elevator flag."""
     df["amenity_score"] = (
@@ -212,7 +194,6 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
     df = add_age_features(df)          # needs trade_year
     df = add_size_features(df)
     df = add_price_features(df)        # needs district_name, trade_year
-    df = add_liquidity_features(df)
     df = add_amenity_features(df)      # needs story_type
     df = add_location_features(df)
     return df
@@ -220,11 +201,11 @@ def engineer_features(df: pd.DataFrame) -> pd.DataFrame:
 
 def main() -> None:
     df = load_data()
-    print(f"Loaded {len(df):,} rows, {df.shape[1]} columns from {RAW_PATH}")
+    print(f"Loaded {len(df):,} rows, {df.shape[1]} columns from {INPUT_PATH}")
 
     df = engineer_features(df)
-
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(OUTPUT_PATH, index=False)
     print(f"Saved {len(df):,} rows, {df.shape[1]} columns to {OUTPUT_PATH}")
 

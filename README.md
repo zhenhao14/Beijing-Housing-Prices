@@ -11,20 +11,21 @@ and exploratory analysis behind it.
 ## Project structure
 
 ```
-Assignment 3/
+Beijing-Housing-Prices/
 ├── data/
-│   ├── raw/                 # original dataset (NOT committed, see Step 1)
-│   └── processed/           # output of featureengineering.py (NOT committed)
+│   ├── raw/                 # original dataset (NOT committed, see Step 2)
+│   └── processed/           # cleaned and featured CSVs (NOT committed)
 ├── src/
-│   └── featureengineering.py
-├── eda_2.ipynb              # listings and followers
-├── eda_3.ipynb              # price, growth, liquidity, value
+│   ├── cleaning.py          # raw Excel -> cleaned CSV
+│   ├── featureengineering.py  # cleaned CSV -> featured CSV
+│   └── data/
+│       ├── EDA.ipynb
+│       └── eda_2.ipynb
+│       └── eda_3.ipynb
+├── eda_3.ipynb
 ├── requirements.txt
 └── README.md
 ```
-
-Adjust the tree above if your notebooks live in a `notebooks/` folder.
-
 ## Setup
 
 These steps assume Python 3.10 or newer and git are installed.
@@ -32,8 +33,8 @@ These steps assume Python 3.10 or newer and git are installed.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/zhenhao14/Beijing-Housing-Prices.git
+cd Beijing-Housing-Prices
 ```
 
 If the path to your folder contains spaces, wrap it in quotes in every command.
@@ -96,14 +97,30 @@ data/processed/BeijingHousingPrices_featured.csv
 The script prints the row and column counts when it finishes. Loading the Excel file can take
 a minute.
 
-### 6. Open the notebooks
+### 5. Clean the data
 
-```bash
-jupyter lab
-```
+python src/cleaning.py
 
-(or open the `.ipynb` files in VS Code and select the `.venv` interpreter.) Run the notebooks
-**after** Step 5, since `eda_3.ipynb` reads the processed CSV.
+This reads `data/raw/BeijingHousingPrices.xlsx` (loading takes a minute), fixes column types,
+removes invalid values, drops duplicates and incomplete rows, and drops the `DOM` column
+(nearly half its values are missing). It writes `data/processed/BeijingHousingPrices_cleaned.csv`
+and prints a cleaning log.
+
+### 6. Engineer features
+
+python src/featureengineering.py
+
+This reads the cleaned CSV, adds the features listed below, and writes
+`data/processed/BeijingHousingPrices_featured.csv`.
+
+## Data cleaning
+
+| Step | Outcome |
+|---|---|
+| Rows in raw file | 318,851 |
+| Rows after cleaning | 297,490 (93.3%) |
+| `DOM` dropped | Nearly half of values missing |
+| Invalid values | Text in numeric columns, fractional or undocumented codes set to missing, then incomplete rows dropped |
 
 ## Engineered features
 
@@ -129,15 +146,16 @@ jupyter lab
 | `can't open file '/Users/.../NUS'` | The path has spaces. Wrap it in quotes, or run `python src/featureengineering.py` from the project root. |
 | `FileNotFoundError ... BeijingHousingPrices.xlsx` | The dataset is missing or misnamed. Check Step 2. |
 | `ModuleNotFoundError` | The virtual environment is not active, or Step 4 was skipped. |
-| `KeyError: '<column>'` | A column name in the Excel file differs from the script (names are case-sensitive). Print `df.columns.tolist()` and compare. |
+| `KeyError: '<column>'` | A column name in the data differs from the script (names are case-sensitive). Print `df.columns.tolist()` and compare. |
 | `git push` fails with HTTP 400 | Run `git config http.postBuffer 524288000` and retry. |
+| FileNotFoundError ... _cleaned.csv| Run python src/cleaning.py before featureengineering.py.|
 
 ## Team workflow
 
 - Run `git pull` before starting work and `git push` when you finish.
 - Each person owns their own notebook, since `.ipynb` merge conflicts are hard to resolve.
 - Do not commit the dataset or `.venv/` (both are in `.gitignore`).
-- Don't edit `featureengineering.py` without telling the team. Changing it changes every notebook's input.
+- Don't edit `cleaning.py` or `featureengineering.py` without telling the team. Changing either changes every notebook's input. If you change `cleaning.py`, rerun both scripts in order.
 
 ## Submission
 
