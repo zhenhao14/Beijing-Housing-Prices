@@ -46,7 +46,7 @@ YEAR_COLS = {"constructionTime": (1906, 2016)}
 CODE_COLS = {
     "buildingType": [1, 2, 3, 4],             # tower, bungalow, plate+tower, plate
     "renovationCondition": [1, 2, 3, 4],      # other, rough, simplicity, refined
-    "buildStructure": [1, 2, 3, 4, 5, 6],
+    "buildingStructure": [1, 2, 3, 4, 5, 6],
     "elevator": [0, 1],
     "fiveYearsProperty": [0, 1],
     "subway": [0, 1],
