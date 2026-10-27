@@ -1,0 +1,28 @@
+district,characteristic,bucket,volatility_pp,pct_quarters_down,cagr_pct,n_trades,n_changes,vol_vs_avg
+Shunyi,Distance to centre,Closer,10.19,30.43,24.82,2882,23,2.87
+Xicheng,Distance to centre,Closer,6.76,26.09,23.89,9543,23,-0.56
+Shunyi,Distance to centre,Further,7.81,21.74,24.58,2882,23,0.49
+Xicheng,Distance to centre,Further,7.84,30.43,25.63,9543,23,0.52
+Shunyi,Distance to centre,Middle,8.07,26.09,25.69,2881,23,0.74
+Xicheng,Distance to centre,Middle,6.88,17.39,23.86,9543,23,-0.44
+Shunyi,Elevator,With,7.76,17.39,24.45,2902,23,0.44
+Tongzhou,Elevator,With,8.16,33.33,19.9,1494,12,0.83
+Xicheng,Elevator,With,6.38,17.39,24.86,14287,23,-0.94
+Shunyi,Elevator,Without,8.21,21.74,24.81,5743,23,0.89
+Xicheng,Elevator,Without,7.17,17.39,23.69,14342,23,-0.16
+Shunyi,Ladder ratio,High,7.87,21.74,24.2,6056,23,0.54
+Tongzhou,Ladder ratio,High,9.1,20.0,19.7,1052,10,1.78
+Xicheng,Ladder ratio,High,8.25,30.43,22.42,6046,23,0.93
+Shunyi,Ladder ratio,Low,8.6,13.33,27.64,1205,15,1.28
+Xicheng,Ladder ratio,Low,6.54,17.39,24.8,11157,23,-0.79
+Shunyi,Ladder ratio,Mid,8.56,15.79,26.67,1384,19,1.24
+Xicheng,Ladder ratio,Mid,6.92,17.39,24.6,11426,23,-0.4
+Shunyi,Overall,All trades,7.71,17.39,25.06,8645,23,0.39
+Tongzhou,Overall,All trades,7.69,15.79,19.13,2188,19,0.37
+Xicheng,Overall,All trades,6.57,17.39,24.3,28629,23,-0.75
+Shunyi,Subway,Near,8.4,30.43,25.95,2616,23,1.07
+Tongzhou,Subway,Near,9.41,12.5,19.56,1031,8,2.09
+Xicheng,Subway,Near,6.68,17.39,24.11,21880,23,-0.64
+Shunyi,Subway,Not near,8.11,21.74,24.14,6029,23,0.79
+Tongzhou,Subway,Not near,8.41,9.09,19.37,1157,11,1.09
+Xicheng,Subway,Not near,8.37,21.74,25.01,6749,23,1.05
