@@ -25,8 +25,6 @@ OUTPUT_PATH = ROOT / "data" / "processed" / "BeijingHousingPrices_cleaned.csv"
 # DECLARATION: the intended type of every column
 # --------------------------------------------------------------------------- #
 
-# Dropped entirely: nearly half the values are missing (see EDA 1), so we avoid this variable.
-DROP_COLS = ["DOM"]
 
 # Identifiers and free text: labels, never used in arithmetic
 STRING_COLS = ["url", "id", "floor"]
