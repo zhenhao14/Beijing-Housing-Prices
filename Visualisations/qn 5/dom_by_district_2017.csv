@@ -1,0 +1,27 @@
+district,statistic,dom_days,risk_status,dot_key,n_trades,city_p75
+Shijingshan,Median,25.0,Lower risk,Lower risk – Median,1356,71.0
+Shijingshan,75th pct,55.0,Lower risk,Lower risk – 75th pct,1356,71.0
+Fangshan,Median,28.0,Lower risk,Lower risk – Median,730,71.0
+Fangshan,75th pct,57.0,Lower risk,Lower risk – 75th pct,730,71.0
+Shunyi,Median,26.0,Lower risk,Lower risk – Median,1089,71.0
+Shunyi,75th pct,62.0,Lower risk,Lower risk – 75th pct,1089,71.0
+Daxing,Median,30.0,Lower risk,Lower risk – Median,2160,71.0
+Daxing,75th pct,65.0,Lower risk,Lower risk – 75th pct,2160,71.0
+Fengtai,Median,28.0,Lower risk,Lower risk – Median,3918,71.0
+Fengtai,75th pct,66.0,Lower risk,Lower risk – 75th pct,3918,71.0
+Changping,Median,30.0,Lower risk,Lower risk – Median,5508,71.0
+Changping,75th pct,67.0,Lower risk,Lower risk – 75th pct,5508,71.0
+Tongzhou,Median,30.0,Lower risk,Lower risk – Median,348,71.0
+Tongzhou,75th pct,67.2,Lower risk,Lower risk – 75th pct,348,71.0
+Xicheng,Median,28.0,Lower risk,Lower risk – Median,3776,71.0
+Xicheng,75th pct,68.0,Lower risk,Lower risk – 75th pct,3776,71.0
+Dongcheng,Median,31.0,Lower risk,Lower risk – Median,2195,71.0
+Dongcheng,75th pct,73.0,Lower risk,Lower risk – 75th pct,2195,71.0
+Pinggu,Median,31.0,Lower risk,Lower risk – Median,1652,71.0
+Pinggu,75th pct,74.0,Lower risk,Lower risk – 75th pct,1652,71.0
+Chaoyang,Median,34.0,Lower risk,Lower risk – Median,14244,71.0
+Chaoyang,75th pct,76.0,Lower risk,Lower risk – 75th pct,14244,71.0
+Haidian,Median,36.0,Higher risk,Higher risk – Median,4673,71.0
+Haidian,75th pct,78.0,Higher risk,Higher risk – 75th pct,4673,71.0
+Mentougou,Median,29.0,Higher risk,Higher risk – Median,259,71.0
+Mentougou,75th pct,86.5,Higher risk,Higher risk – 75th pct,259,71.0

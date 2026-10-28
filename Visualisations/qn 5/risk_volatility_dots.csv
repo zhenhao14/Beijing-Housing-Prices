@@ -1,0 +1,49 @@
+group,group_order,category,sort_order,point,volatility_pp,status,pooled_vol_pp
+District,0,Haidian,0,Pooled,8.09,Steadier than pooled,8.09
+District,0,Haidian,0,Category,5.89,Steadier than pooled,8.09
+District,0,Xicheng,1,Pooled,8.09,Steadier than pooled,8.09
+District,0,Xicheng,1,Category,6.02,Steadier than pooled,8.09
+District,0,Dongcheng,2,Pooled,8.09,Steadier than pooled,8.09
+District,0,Dongcheng,2,Category,6.67,Steadier than pooled,8.09
+District,0,Chaoyang,3,Pooled,8.09,Steadier than pooled,8.09
+District,0,Chaoyang,3,Category,7.33,Steadier than pooled,8.09
+District,0,Shunyi,4,Pooled,8.09,Steadier than pooled,8.09
+District,0,Shunyi,4,Category,7.79,Steadier than pooled,8.09
+District,0,Tongzhou,5,Pooled,8.09,Steadier than pooled,8.09
+District,0,Tongzhou,5,Category,7.89,Steadier than pooled,8.09
+District,0,Changping,6,Pooled,8.09,Near pooled,8.09
+District,0,Changping,6,Category,8.25,Near pooled,8.09
+District,0,Fengtai,7,Pooled,8.09,Near pooled,8.09
+District,0,Fengtai,7,Category,8.91,Near pooled,8.09
+District,0,Daxing,8,Pooled,8.09,Near pooled,8.09
+District,0,Daxing,8,Category,8.95,Near pooled,8.09
+District,0,Pinggu,9,Pooled,8.09,Near pooled,8.09
+District,0,Pinggu,9,Category,9.25,Near pooled,8.09
+District,0,Fangshan,10,Pooled,8.09,Much more volatile,8.09
+District,0,Fangshan,10,Category,9.58,Much more volatile,8.09
+District,0,Shijingshan,11,Pooled,8.09,Much more volatile,8.09
+District,0,Shijingshan,11,Category,9.63,Much more volatile,8.09
+District,0,Mentougou,12,Pooled,8.09,Much more volatile,8.09
+District,0,Mentougou,12,Category,13.3,Much more volatile,8.09
+Unit size,1,<50 m²,13,Pooled,8.09,Near pooled,8.09
+Unit size,1,<50 m²,13,Category,8.3,Near pooled,8.09
+Unit size,1,50–90 m²,14,Pooled,8.09,Near pooled,8.09
+Unit size,1,50–90 m²,14,Category,8.52,Near pooled,8.09
+Unit size,1,90–140 m²,15,Pooled,8.09,Steadier than pooled,8.09
+Unit size,1,90–140 m²,15,Category,7.28,Steadier than pooled,8.09
+Unit size,1,140+ m²,16,Pooled,8.09,Steadier than pooled,8.09
+Unit size,1,140+ m²,16,Category,6.92,Steadier than pooled,8.09
+Building type,2,Plate,17,Pooled,8.09,Near pooled,8.09
+Building type,2,Plate,17,Category,9.29,Near pooled,8.09
+Building type,2,Plate + tower,18,Pooled,8.09,Steadier than pooled,8.09
+Building type,2,Plate + tower,18,Category,7.7,Steadier than pooled,8.09
+Building type,2,Tower,19,Pooled,8.09,Steadier than pooled,8.09
+Building type,2,Tower,19,Category,6.8,Steadier than pooled,8.09
+Building age,3,0–5 yrs,20,Pooled,8.09,Steadier than pooled,8.09
+Building age,3,0–5 yrs,20,Category,5.88,Steadier than pooled,8.09
+Building age,3,6–15 yrs,21,Pooled,8.09,Steadier than pooled,8.09
+Building age,3,6–15 yrs,21,Category,7.83,Steadier than pooled,8.09
+Building age,3,16–30 yrs,22,Pooled,8.09,Near pooled,8.09
+Building age,3,16–30 yrs,22,Category,8.52,Near pooled,8.09
+Building age,3,30+ yrs,23,Pooled,8.09,Steadier than pooled,8.09
+Building age,3,30+ yrs,23,Category,7.92,Steadier than pooled,8.09

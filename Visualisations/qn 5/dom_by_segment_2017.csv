@@ -1,0 +1,27 @@
+group,group_order,category,sort_order,statistic,dom_days,status,dot_key,n_trades,city_p75
+Unit size,0,<50 m²,0,Median,22.0,Faster than Beijing,Faster than Beijing - Median,5703,71.0
+Unit size,0,<50 m²,0,75th pct,53.0,Faster than Beijing,Faster than Beijing - 75th pct,5703,71.0
+Unit size,0,50–90 m²,1,Median,30.0,In line with Beijing,In line with Beijing - Median,23509,71.0
+Unit size,0,50–90 m²,1,75th pct,68.0,In line with Beijing,In line with Beijing - 75th pct,23509,71.0
+Unit size,0,90–140 m²,2,Median,37.0,Slower than Beijing,Slower than Beijing - Median,10205,71.0
+Unit size,0,90–140 m²,2,75th pct,81.0,Slower than Beijing,Slower than Beijing - 75th pct,10205,71.0
+Unit size,0,140+ m²,3,Median,50.0,Slower than Beijing,Slower than Beijing - Median,2491,71.0
+Unit size,0,140+ m²,3,75th pct,100.5,Slower than Beijing,Slower than Beijing - 75th pct,2491,71.0
+Building type,1,Plate,4,Median,30.0,In line with Beijing,In line with Beijing - Median,23576,71.0
+Building type,1,Plate,4,75th pct,68.0,In line with Beijing,In line with Beijing - 75th pct,23576,71.0
+Building type,1,Plate + tower,5,Median,34.0,Slower than Beijing,Slower than Beijing - Median,7946,71.0
+Building type,1,Plate + tower,5,75th pct,77.0,Slower than Beijing,Slower than Beijing - 75th pct,7946,71.0
+Building type,1,Tower,6,Median,33.0,In line with Beijing,In line with Beijing - Median,10385,71.0
+Building type,1,Tower,6,75th pct,74.0,In line with Beijing,In line with Beijing - 75th pct,10385,71.0
+Lift,2,Has elevator,7,Median,34.0,In line with Beijing,In line with Beijing - Median,23942,71.0
+Lift,2,Has elevator,7,75th pct,76.0,In line with Beijing,In line with Beijing - 75th pct,23942,71.0
+Lift,2,No elevator,8,Median,28.0,Faster than Beijing,Faster than Beijing - Median,17966,71.0
+Lift,2,No elevator,8,75th pct,65.0,Faster than Beijing,Faster than Beijing - 75th pct,17966,71.0
+Floor,3,Low floor,9,Median,32.0,In line with Beijing,In line with Beijing - Median,11898,71.0
+Floor,3,Low floor,9,75th pct,73.0,In line with Beijing,In line with Beijing - 75th pct,11898,71.0
+Floor,3,Middle floor,10,Median,30.0,In line with Beijing,In line with Beijing - Median,16223,71.0
+Floor,3,Middle floor,10,75th pct,68.0,In line with Beijing,In line with Beijing - 75th pct,16223,71.0
+Floor,3,High floor,11,Median,31.0,In line with Beijing,In line with Beijing - Median,9165,71.0
+Floor,3,High floor,11,75th pct,71.0,In line with Beijing,In line with Beijing - 75th pct,9165,71.0
+Floor,3,Top floor,12,Median,37.0,Slower than Beijing,Slower than Beijing - Median,4621,71.0
+Floor,3,Top floor,12,75th pct,80.0,Slower than Beijing,Slower than Beijing - 75th pct,4621,71.0
