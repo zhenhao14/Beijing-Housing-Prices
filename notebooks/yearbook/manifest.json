@@ -1,0 +1,417 @@
+[
+  {
+    "table_id": "2-1",
+    "title_cn": "主要年份常住人口",
+    "title_en": "Permanent resident population in selected years",
+    "edition": 2019,
+    "raw_path": "district_resident_population_2-1.csv",
+    "sha256": "c9c1474fe084e004a0608493596a364be05db097407ff08eaa3cb359bc9ff94b",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/2-01.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": "注：1.2005年，2015年数据为1%人口抽样调查推算数据；2013—2014年，2016—2018年为人口抽样调查推算数据(下表同)。 2.全市数据2010年为北京市第六次全国人口普查推算数，分区数据2010年为北京市第六次全国人口普查数据，普查标准时点为2010年11月1日零时(另：普查时点全市常住人口为1961.2万人)。 Visual transcription of official JPG; original SHA256=4c2ea144ed13b958290d88b8df22d23ed53cb86225b39102da7d2b70fe756cc5. Workbook sheet=2-1; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 1,
+          "year": 2005,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2005"
+        },
+        {
+          "column": 2,
+          "year": 2010,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2010"
+        },
+        {
+          "column": 3,
+          "year": 2012,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2012"
+        },
+        {
+          "column": 4,
+          "year": 2013,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2013"
+        },
+        {
+          "column": 5,
+          "year": 2014,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2014"
+        },
+        {
+          "column": 6,
+          "year": 2015,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2015"
+        },
+        {
+          "column": 7,
+          "year": 2016,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2016"
+        },
+        {
+          "column": 8,
+          "year": 2017,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2017"
+        },
+        {
+          "column": 9,
+          "year": 2018,
+          "metric": "population",
+          "unit": "万人",
+          "expected_header": "2018"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [],
+    "scan_sha256": "4c2ea144ed13b958290d88b8df22d23ed53cb86225b39102da7d2b70fe756cc5"
+  },
+  {
+    "table_id": "2-2",
+    "title_cn": "主要年份常住外来人口",
+    "title_en": "Non-local resident population in selected years",
+    "edition": 2019,
+    "raw_path": "district_nonlocal_resident_population_2-2.csv",
+    "sha256": "155da301a545c2689f87f62eb4c459cc71a386213991377225f51fbcd388924c",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/2-02.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": "注：全市数据2010年为北京市第六次全国人口普查推算数，分区数据2010年为北京市第六次全国人口普查数据，普查标准时点为2010年11月1日零时(另：普查时点全市常住外来人口为704.5万人)。 Visual transcription of official JPG; original SHA256=009908c396b32d26080adcd4189e1e06adf0d518e298c34b8faf28d68d56d22f. Workbook sheet=2-2; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 1,
+          "year": 2005,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2005"
+        },
+        {
+          "column": 2,
+          "year": 2010,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2010"
+        },
+        {
+          "column": 3,
+          "year": 2012,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2012"
+        },
+        {
+          "column": 4,
+          "year": 2013,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2013"
+        },
+        {
+          "column": 5,
+          "year": 2014,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2014"
+        },
+        {
+          "column": 6,
+          "year": 2015,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2015"
+        },
+        {
+          "column": 7,
+          "year": 2016,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2016"
+        },
+        {
+          "column": 8,
+          "year": 2017,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2017"
+        },
+        {
+          "column": 9,
+          "year": 2018,
+          "metric": "nonlocal_population",
+          "unit": "万人",
+          "expected_header": "2018"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [],
+    "scan_sha256": "009908c396b32d26080adcd4189e1e06adf0d518e298c34b8faf28d68d56d22f"
+  },
+  {
+    "table_id": "2-14",
+    "title_cn": "全市居民人均可支配收入(2015-2018年)",
+    "title_en": "Resident per-capita disposable income, 2015-2018",
+    "edition": 2019,
+    "raw_path": "district_per_capita_disposable_income_2-14.csv",
+    "sha256": "bce86fd49964143541781ff302a6d5283894172e663da6e5087c3f6dd617ec8a",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/2-14.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": "注：按照国家统计局要求，自2015年起，我市按照城乡住户调查一体化改革后的新口径发布全市和分城乡的居民收支数据。 Visual transcription of official JPG; original SHA256=959df297fe119b2876b52eaeab431d5bd7703cf2bbe84bc6b946a9b064c32961. Workbook sheet=2-14; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 1,
+          "year": 2015,
+          "metric": "income_pc_cny",
+          "unit": "元",
+          "expected_header": "2015"
+        },
+        {
+          "column": 2,
+          "year": 2016,
+          "metric": "income_pc_cny",
+          "unit": "元",
+          "expected_header": "2016"
+        },
+        {
+          "column": 3,
+          "year": 2017,
+          "metric": "income_pc_cny",
+          "unit": "元",
+          "expected_header": "2017"
+        },
+        {
+          "column": 4,
+          "year": 2018,
+          "metric": "income_pc_cny",
+          "unit": "元",
+          "expected_header": "2018"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [],
+    "scan_sha256": "959df297fe119b2876b52eaeab431d5bd7703cf2bbe84bc6b946a9b064c32961"
+  },
+  {
+    "table_id": "2-15",
+    "title_cn": "全市居民人均消费支出(2015-2018年)",
+    "title_en": "Resident per-capita consumption expenditure, 2015-2018",
+    "edition": 2019,
+    "raw_path": "district_per_capita_consumption_expenditure_2-15.csv",
+    "sha256": "b9cd071a0573188013c553226ee9cc1e83ff5c7f16411b9d18089d40acb42b7c",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/2-14a.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": " Visual transcription of official JPG; original SHA256=9f600f7b902b6d00ad180b85320eeaa54e5569fb0a04db8f73f8c2c461331902. Workbook sheet=2-15; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 1,
+          "year": 2015,
+          "metric": "consumption_pc_cny",
+          "unit": "元",
+          "expected_header": "2015"
+        },
+        {
+          "column": 2,
+          "year": 2016,
+          "metric": "consumption_pc_cny",
+          "unit": "元",
+          "expected_header": "2016"
+        },
+        {
+          "column": 3,
+          "year": 2017,
+          "metric": "consumption_pc_cny",
+          "unit": "元",
+          "expected_header": "2017"
+        },
+        {
+          "column": 4,
+          "year": 2018,
+          "metric": "consumption_pc_cny",
+          "unit": "元",
+          "expected_header": "2018"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [],
+    "scan_sha256": "9f600f7b902b6d00ad180b85320eeaa54e5569fb0a04db8f73f8c2c461331902"
+  },
+  {
+    "table_id": "3-7",
+    "title_cn": "常住人口(按年龄分)",
+    "title_en": "Permanent population by age",
+    "edition": 2019,
+    "raw_path": "district_population_by_age_3-7.csv",
+    "sha256": "07bb8998f322473782ff6822a0f0b125cfb0739a34f79fe9c5e956696b18c802",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/3-07.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": "Both printed years retained. Existing analysis uses only the 2018 age snapshot. Visual transcription of official JPG; original SHA256=c6f4376e2d7094e27010edd0079202f46b7f4ed6c0764c3d340530e095f7bfe3. Workbook sheet=3-7; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 3,
+          "year": 2018,
+          "metric": "age_count:0-14岁",
+          "unit": "万人",
+          "expected_header": "0-14岁 | 2018"
+        },
+        {
+          "column": 5,
+          "year": 2018,
+          "metric": "age_count:15-64岁",
+          "unit": "万人",
+          "expected_header": "15-64岁 | 2018"
+        },
+        {
+          "column": 7,
+          "year": 2018,
+          "metric": "age_count:65岁及以上",
+          "unit": "万人",
+          "expected_header": "65岁及以上 | 2018"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [],
+    "scan_sha256": "c6f4376e2d7094e27010edd0079202f46b7f4ed6c0764c3d340530e095f7bfe3"
+  },
+  {
+    "table_id": "3-49",
+    "title_cn": "全市居民收支情况",
+    "title_en": "Resident income and expenditure",
+    "edition": 2019,
+    "raw_path": "district_income_and_expenditure_3-49.csv",
+    "sha256": "464e7ce05554eb1c6b03dbc7dc9a13643cd00465dab199d50d08e688e9309aaf",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/3-51.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": "Reported nominal growth rates are transcribed as printed, not recomputed from rounded levels. Rate values are percentage points (9.0 means 9.0%). Visual transcription of official JPG; original SHA256=be8c90469f7334e7d60092f27a6c22290d4e79419752276bc1ddb19389ec461f. Workbook sheet=3-49; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 1,
+          "year": 2018,
+          "metric": "income_pc_cny",
+          "unit": "元",
+          "expected_header": "人均可支配收入 | 2018"
+        },
+        {
+          "column": 4,
+          "year": 2018,
+          "metric": "consumption_pc_cny",
+          "unit": "元",
+          "expected_header": "人均消费支出 | 2018"
+        },
+        {
+          "column": 3,
+          "year": 2018,
+          "metric": "income_reported_growth_pct",
+          "unit": "%",
+          "expected_header": "人均可支配收入 | 名义增速(%)"
+        },
+        {
+          "column": 6,
+          "year": 2018,
+          "metric": "consumption_reported_growth_pct",
+          "unit": "%",
+          "expected_header": "人均消费支出 | 名义增速(%)"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [],
+    "scan_sha256": "be8c90469f7334e7d60092f27a6c22290d4e79419752276bc1ddb19389ec461f"
+  },
+  {
+    "table_id": "3-20",
+    "title_cn": "商品房基本情况",
+    "title_en": "Commodity housing development",
+    "edition": 2019,
+    "raw_path": "district_commercial_housing_3-20.csv",
+    "sha256": "eede4c6752206cbf2bd2f0219fdf7d20183281082224067b41eea454a21c8e71",
+    "source_url": "https://nj.tjj.beijing.gov.cn/nj/qxnj/2019/zk/e/html/3-21.jpg",
+    "source_status": "visually_transcribed",
+    "source_notes": "注：销售面积为期房与现房销售面积之和。 施工面积 is area under construction, not new starts. Only sales area has an explicit residential breakout (#住宅). The development-area row is preserved separately; do not treat it as a seventeenth district. Reported growth rates are retained exactly, even when rounded levels imply a slightly different rate. Visual transcription of official JPG; original SHA256=4b5f757f3bb22a6ed368ef7a6da9936e7217e85b88181f9ba40f9023f73fa668. Workbook sheet=3-20; first numeric row=6.",
+    "layout": {
+      "header_rows": [
+        2
+      ],
+      "data_start_row": 3,
+      "data_end_row": 19,
+      "district_column": 0,
+      "columns": [
+        {
+          "column": 4,
+          "year": 2018,
+          "metric": "commercial_housing_completed_m2",
+          "unit": "万平方米",
+          "expected_header": "房屋竣工面积 | 2018"
+        },
+        {
+          "column": 7,
+          "year": 2018,
+          "metric": "commercial_housing_sales_m2",
+          "unit": "万平方米",
+          "expected_header": "商品房销售面积 | 2018"
+        },
+        {
+          "column": 10,
+          "year": 2018,
+          "metric": "residential_sales_m2",
+          "unit": "万平方米",
+          "expected_header": "#住宅销售面积 | 2018"
+        }
+      ]
+    },
+    "excluded_analysis_rows": [
+      "北京经济技术开发区"
+    ],
+    "scan_sha256": "4b5f757f3bb22a6ed368ef7a6da9936e7217e85b88181f9ba40f9023f73fa668"
+  }
+]
