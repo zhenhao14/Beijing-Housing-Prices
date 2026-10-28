@@ -25,6 +25,8 @@ OUTPUT_PATH = ROOT / "data" / "processed" / "BeijingHousingPrices_cleaned.csv"
 # DECLARATION: the intended type of every column
 # --------------------------------------------------------------------------- #
 
+# Dropped columns (if needed)
+DROP_COLS = []
 
 # Identifiers and free text: labels, never used in arithmetic
 STRING_COLS = ["url", "id", "floor"]
